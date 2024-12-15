@@ -1,5 +1,6 @@
 import App from "../../App";
 import About from "../About/About";
+import ErrorPage from "../ErrorPage/ErrorPage";
 import Header from "../Header/Header";
 
 const routes = [
@@ -11,6 +12,7 @@ const routes = [
         <App />
       </div>
     ),
+    errorElement: <ErrorPage />,
   },
   {
     path: "about",
