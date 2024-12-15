@@ -6,28 +6,19 @@ const routes = [
   {
     path: "/",
     element: (
-      <>
-        <Header title="RJL" />
+      <div>
+        <Header title="RJL" aboutMe="About" />
         <App />
-      </>
+      </div>
     ),
   },
   {
     path: "about",
     element: (
-      <>
-        <Header title="RJL" />
+      <div>
+        <Header title="RJL" aboutMe="About" />
         <About />
-      </>
-    ),
-  },
-  {
-    path: "about/about",
-    element: (
-      <>
-        <Header title="RJL" />
-        <About />
-      </>
+      </div>
     ),
   },
 ];

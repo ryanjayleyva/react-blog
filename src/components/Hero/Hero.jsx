@@ -3,13 +3,11 @@ import PropTypes from "prop-types";
 
 const Hero = ({ author, about }) => {
   return (
-    <>
-      <div className={styles.container}>
-        <h1 className={styles.author}>{author}</h1>
+    <div className={styles.container}>
+      <h1 className={styles.author}>{author}</h1>
 
-        <h2 className={styles.about}>{about}</h2>
-      </div>
-    </>
+      <h2 className={styles.about}>{about}</h2>
+    </div>
   );
 };
 
