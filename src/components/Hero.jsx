@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const posts = [
   { slug: "git-setup", title: "Git Setup" },
-  { slug: "github-setup", title: "GitHub Setup" },
+  { slug: "github-profile-setup", title: "GitHub Profile Setup" },
   { slug: "neovim-setup", title: "Neovim Setup" },
 ];
 
@@ -16,7 +16,7 @@ const Hero = ({ author, about }) => {
 
       {/* Render list of blog posts */}
       <div className={styles.postsList}>
-        <h2>Articles</h2>
+        <h2 className={styles.articles}>Articles</h2>
         {posts.map((post) => (
           <div key={post.slug} className={styles.postItem}>
             <Link to={`/blog/${post.slug}`} className={styles.postLink}>

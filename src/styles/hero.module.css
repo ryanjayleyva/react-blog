@@ -24,6 +24,14 @@
   .about {
     font-size: 1rem;
   }
+
+  .articles {
+    font-size: 1.3rem;
+  }
+
+  .postLink {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 37.5rem) {
@@ -36,6 +44,14 @@
   }
 
   .about {
+    font-size: 1rem;
+  }
+
+  .articles {
+    font-size: 1.3rem;
+  }
+
+  .postLink {
     font-size: 1rem;
   }
 }
@@ -52,6 +68,14 @@
   .about {
     font-size: 1rem;
   }
+
+  .articles {
+    font-size: 1.4rem;
+  }
+
+  .postLink {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 62rem) {
@@ -64,6 +88,14 @@
   }
 
   .about {
+    font-size: 1.1rem;
+  }
+
+  .articles {
+    font-size: 1.5rem;
+  }
+
+  .postLink {
     font-size: 1.1rem;
   }
 }
@@ -80,4 +112,25 @@
   .about {
     font-size: 1.1rem;
   }
+
+  .articles {
+    font-size: 1.6rem;
+  }
+
+  .postLink {
+    font-size: 1.1rem;
+  }
+}
+
+.postsList {
+  margin-top: 2rem;
+}
+
+.postItem {
+  margin: 0.2rem 0;
+}
+
+.postLink {
+  color: #0066cc;
+  text-decoration: none;
 }
