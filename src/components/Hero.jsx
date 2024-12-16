@@ -1,4 +1,4 @@
-import styles from "../../styles/hero.module.css";
+import styles from "../styles/hero.module.css";
 import PropTypes from "prop-types";
 
 const Hero = ({ author, about }) => {

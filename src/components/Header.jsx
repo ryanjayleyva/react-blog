@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import styles from "../../styles/header.module.css";
+import styles from "../styles/header.module.css";
 import PropTypes from "prop-types";
 
 const Header = ({ title, aboutMe }) => {

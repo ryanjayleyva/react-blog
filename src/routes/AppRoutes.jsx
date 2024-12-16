@@ -1,7 +1,7 @@
-import App from "../../App";
-import About from "../About/About";
-import ErrorPage from "../ErrorPage/ErrorPage";
-import Header from "../Header/Header";
+import App from "../App.jsx";
+import Header from "../components/Header.jsx";
+import About from "./About.jsx";
+import ErrorPage from "./ErrorPage.jsx";
 
 const routes = [
   {
@@ -20,6 +20,14 @@ const routes = [
       <div>
         <Header title="RJL" aboutMe="About" />
         <About />
+      </div>
+    ),
+  },
+  {
+    path: "blog",
+    element: (
+      <div>
+        <Header title="RJL" aboutMe="About" />
       </div>
     ),
   },
