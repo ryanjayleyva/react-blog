@@ -7,4 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  watch: {
+    ignored: ["!**/src/posts/**"], // Ensure Vite watches posts folder
+  },
 });
