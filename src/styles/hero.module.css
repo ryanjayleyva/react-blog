@@ -14,6 +14,32 @@
 
 @media (max-width: 37.5rem) {
   .container {
+    margin: 10rem auto 0 auto;
+  }
+
+  .author {
+    font-size: 1.3rem;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  .articles {
+    font-size: 1.3rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+
+  .postLink {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 37.5rem) {
+  .container {
     margin: 12rem auto 0 auto;
   }
 
@@ -29,26 +55,8 @@
     font-size: 1.3rem;
   }
 
-  .postLink {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 37.5rem) {
-  .container {
-    margin: 14rem auto 0 auto;
-  }
-
-  .author {
-    font-size: 1.3rem;
-  }
-
-  .about {
-    font-size: 1rem;
-  }
-
-  .articles {
-    font-size: 1.3rem;
+  .date {
+    font-size: 1.2rem;
   }
 
   .postLink {
@@ -58,7 +66,7 @@
 
 @media (min-width: 48rem) {
   .container {
-    margin: 16rem auto 0 auto;
+    margin: 14rem auto 0 auto;
   }
 
   .author {
@@ -71,6 +79,10 @@
 
   .articles {
     font-size: 1.4rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
   }
 
   .postLink {
@@ -80,7 +92,7 @@
 
 @media (min-width: 62rem) {
   .container {
-    margin: 18rem auto 0 auto;
+    margin: 16rem auto 0 auto;
   }
 
   .author {
@@ -93,6 +105,10 @@
 
   .articles {
     font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 1.4rem;
   }
 
   .postLink {
@@ -102,7 +118,7 @@
 
 @media (min-width: 75rem) {
   .container {
-    margin: 20rem auto 0 auto;
+    margin: 18rem auto 0 auto;
   }
 
   .author {
@@ -117,9 +133,17 @@
     font-size: 1.6rem;
   }
 
+  .date {
+    font-size: 1.5rem;
+  }
+
   .postLink {
     font-size: 1.1rem;
   }
+}
+
+.date {
+  margin-top: 1.5rem;
 }
 
 .postsList {
@@ -128,6 +152,7 @@
 
 .postItem {
   margin: 0.2rem 0;
+  padding: 0 0 0 0.5rem;
 }
 
 .postLink {
